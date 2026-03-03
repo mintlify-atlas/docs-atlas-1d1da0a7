@@ -1,0 +1,117 @@
+{
+  "projectType": "framework",
+  "projectName": "Conduit",
+  "projectDescription": "Self-hosted backend framework with ready-made modules for authentication, database, storage, and more.",
+  "theme": "aspen",
+  "primaryColor": "#7C3AED",
+  "lightColor": "#A78BFA",
+  "darkColor": "#5B21B6",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/modules",
+              "concepts/routing",
+              "concepts/configuration"
+            ]
+          },
+          {
+            "group": "Modules",
+            "pages": [
+              "modules/overview",
+              "modules/authentication",
+              "modules/authorization",
+              "modules/database",
+              "modules/router",
+              "modules/storage",
+              "modules/email",
+              "modules/sms",
+              "modules/push-notifications",
+              "modules/chat",
+              "modules/forms"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/overview",
+              "deployment/docker",
+              "deployment/kubernetes",
+              "deployment/standalone"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/custom-modules",
+              "development/extending-modules",
+              "development/grpc-sdk",
+              "development/building-from-source"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Core API",
+            "pages": [
+              "api/core/overview",
+              "api/core/grpc-sdk",
+              "api/core/module-tools"
+            ]
+          },
+          {
+            "group": "Module APIs",
+            "pages": [
+              "api/modules/authentication",
+              "api/modules/database",
+              "api/modules/router",
+              "api/modules/storage"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Modular plugin architecture with 10+ built-in modules",
+    "Support for REST, GraphQL, and WebSocket APIs",
+    "Built-in authentication with multiple sign-in methods",
+    "Database module with MongoDB and PostgreSQL support",
+    "Auto-generated API documentation (Swagger/GraphQL)",
+    "Storage integration with multiple cloud providers",
+    "Email, SMS, and push notification capabilities",
+    "Real-time chat functionality",
+    "gRPC-based microservices communication",
+    "Admin dashboard for configuration and management"
+  ],
+  "publicApiSurface": [
+    "@conduitplatform/grpc-sdk - Core SDK for building Conduit modules",
+    "@conduitplatform/module-tools - Utilities for module development",
+    "@conduitplatform/hermes - HTTP/WebSocket routing library",
+    "Authentication Module - User authentication with multiple providers",
+    "Database Module - Schema management and CRUD operations",
+    "Router Module - REST/GraphQL/WebSocket endpoint management",
+    "Storage Module - File upload and cloud storage integration",
+    "Email Module - Email sending with multiple providers",
+    "SMS Module - Text messaging and 2FA support",
+    "Push Notifications Module - Mobile push notifications",
+    "Chat Module - Real-time chat functionality",
+    "Forms Module - Form submission handling"
+  ]
+}
